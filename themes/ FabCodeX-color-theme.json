@@ -25,7 +25,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#F78C6C"
       }
     },
     {
@@ -97,7 +97,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#f07178"
       }
     },
     {
