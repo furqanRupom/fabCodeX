@@ -11,6 +11,8 @@
     "activityBar.background": "#1c1a26",
     "activityBar.foreground": "#76c6e5",
     "titleBar.activeBackground": "#1c1a26",
+    "titleBar.activeForeground": "#76c6e5",
+
     "editorGroupHeader.tabsBackground": "#1c1a26",
     "tab.activeBackground": "#1c1a26",
     "tab.inactiveBackground": "#1c1a26",
@@ -18,6 +20,7 @@
     "editor.lineHighlightBorder": "#1c1a26",
     "editorLineNumber.activeForeground": "#76c6e5",
     "editorLineNumber.foreground": "#f07178",
+    "terminalCursor.foreground": "#76c6e5",
     "terminal.foreground": "#76c6e5"
 
 
@@ -67,7 +70,7 @@
         "keyword.control",
         "constant.other.color",
         "punctuation",
-        // "meta.tag",
+        "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -90,7 +93,7 @@
 
         ],
         "settings": {
-          "foreground": "#76c6e5",
+          "foreground": "#7ccae8",
         }
     },
     {
@@ -99,11 +102,11 @@
         "meta.block"
       ],
       "settings": {
-        "foreground": "#59e7cb",
+        "foreground": "#53d5bb",
       }
     },
     {
-      "name": "meta text",
+      "name": "meta",
       "scope":[
         "meta"
       ],
@@ -111,6 +114,7 @@
         "foreground": "#cccc",
       }
     },
+
 
 
 
