@@ -7,6 +7,7 @@
     "vscode": "^1.77.0"
   },
   "publisher": "FabCodeX",
+  "icon": "fab.ico",
   "repository": {
     "type": "git",
     "url": "https://github.com/furqanRupom/fabCodeX.git"
