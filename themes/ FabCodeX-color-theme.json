@@ -1,18 +1,28 @@
 {
   "name": " FabCodeX",
   "colors": {
-    "tab.activeBorder": "#df5454",
-    "editorCursor.foreground": "#df5454",
+
+    "tab.activeBorder": "#76c6e5",
+    "editorCursor.foreground": "#76c6e5",
     "editor.background": "#1c1a26",
     "sideBar.background": "#1c1a26",
     "statusBar.background": "#1c1a26",
+    "statusBar.foreground": "#76c6e5",
     "activityBar.background": "#1c1a26",
+    "activityBar.foreground": "#76c6e5",
     "titleBar.activeBackground": "#1c1a26",
     "editorGroupHeader.tabsBackground": "#1c1a26",
     "tab.activeBackground": "#1c1a26",
-    "tab.inactiveBackground": "#1c1a26"
+    "tab.inactiveBackground": "#1c1a26",
+    "editor.selectionBackground": "#1bbaf94D",
+    "editor.lineHighlightBorder": "#1c1a26",
+    "editorLineNumber.activeForeground": "#76c6e5",
+    "editorLineNumber.foreground": "#f07178"
+
+
   },
   "tokenColors": [
+
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
@@ -25,28 +35,29 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#f07178"
       }
     },
     {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
-        "foreground": "#ffffff"
-      }
+        "foreground": "#ffffff",
+      },
+
     },
     {
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#C792EA"
       }
     },
     {
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#76c6e5"
       }
     },
     {
@@ -55,7 +66,7 @@
         "keyword.control",
         "constant.other.color",
         "punctuation",
-        "meta.tag",
+        // "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -69,6 +80,39 @@
         "foreground": "#89DDFF"
       }
     },
+
+    {
+        "name": "meta tag",
+        "scope":[
+          "meta.tag",
+
+
+        ],
+        "settings": {
+          "foreground": "#76c6e5",
+        }
+    },
+    {
+      "name": "meta tag text",
+      "scope":[
+        "meta.block"
+      ],
+      "settings": {
+        "foreground": "#59e7cb",
+      }
+    },
+    {
+      "name": "meta text",
+      "scope":[
+        "meta"
+      ],
+      "settings": {
+        "foreground": "#cccc",
+      }
+    },
+
+
+
     {
       "name": "Tag",
       "scope": [
@@ -146,7 +190,7 @@
 			"string"
 		],
 		"settings": {
-			"foreground": "#ef7a80",
+			// "foreground": "#89DDFF",
 		}
 
 	},
@@ -163,7 +207,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#FFCB6B",
       }
     },
     {
