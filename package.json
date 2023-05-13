@@ -1,7 +1,7 @@
 {
   "name": "FabCodeX",
   "displayName": "FabCodeX",
-  "description": "this is a superb dark theme for programmers",
+  "description": " A theme that mimics the night vision mode of a camera, with its greenish hue and high contrast, making it easier to focus on your code for extended periods",
   "version": "0.4.0",
   "engines": {
     "vscode": "^1.77.0"

@@ -1,10 +1,11 @@
 {
   "name": " FabCodeX",
   "colors": {
-
+    "editorCursor.foreground": "#76c6e5",
     "tab.activeBorder": "#76c6e5",
     "editor.background": "#1c1a26",
     "sideBar.background": "#1c1a26",
+
     "statusBar.background": "#1c1a26",
     "activityBar.background": "#1c1a26",
     "titleBar.activeBackground": "#1c1a26",
@@ -15,9 +16,6 @@
     "editor.lineHighlightBorder": "#1c1a26",
     "editorLineNumber.activeForeground": "#76c6e5",
     "editorLineNumber.foreground": "#D9D9D9",
-
-
-
   },
   "tokenColors": [
 
