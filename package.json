@@ -15,6 +15,13 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "night vision",
+    "code theme",
+    "high contrast",
+    "vscode"
+  ],
   "contributes": {
     "themes": [
       {
